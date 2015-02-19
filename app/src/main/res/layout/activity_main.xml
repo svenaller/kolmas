@@ -16,7 +16,9 @@
         android:id="@+id/nupp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="125dp" />
+        android:layout_marginTop="125dp"
+        android:enabled="true"
+        android:onClick="vajutanuppu" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -27,6 +29,7 @@
         android:layout_alignStart="@+id/nupp"
         android:layout_marginTop="50dp"
         android:layout_alignRight="@+id/nupp"
-        android:layout_alignEnd="@+id/nupp" />
+        android:layout_alignEnd="@+id/nupp"
+        android:text="..." />
 
 </RelativeLayout>
