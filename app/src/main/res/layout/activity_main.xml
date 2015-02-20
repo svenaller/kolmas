@@ -30,6 +30,6 @@
         android:layout_marginTop="50dp"
         android:layout_alignRight="@+id/button"
         android:layout_alignEnd="@+id/button"
-        android:text="EMPTY" />
+        android:text="One" />
 
 </RelativeLayout>
