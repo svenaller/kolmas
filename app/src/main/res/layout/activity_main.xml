@@ -18,7 +18,10 @@
         android:enabled="true"
         android:onClick="pressbutton"
         android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,6 +33,8 @@
         android:layout_marginTop="50dp"
         android:layout_alignRight="@+id/button"
         android:layout_alignEnd="@+id/button"
-        android:text="One" />
+        android:text="One"
+        android:textAlignment="center"
+        android:textColor="#ff022680" />
 
 </RelativeLayout>
