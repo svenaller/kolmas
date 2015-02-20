@@ -20,13 +20,13 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
-    public void vajutanuppu(View v) {
-        TextView tekst = (TextView) findViewById(R.id.tekst);
+    public void pressbutton(View v) {
+        TextView text = (TextView) findViewById(R.id.text);
 
-        if (tekst.getText() == "Teine") {
-            tekst.setText("Esimene");
+        if (text.getText() == "One") {
+            text.setText("Two");
         } else {
-            tekst.setText("Teine");
+            text.setText("One");
         }
     }
 
